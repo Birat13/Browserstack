@@ -1,0 +1,22 @@
+userName: "biratparajuli_c47OZY"
+accessKey: "7vwx7B6pvUWBmhCckFzW"
+
+buildName: "Yirifi-CI-Build-Birat"
+projectName: "Browserstack"
+
+testObservability: true
+
+platforms:
+  - os: OS X
+    osVersion: Ventura
+    browser: 'playwright-chromium'
+    browser_version: latest
+  - os: OS X
+    osVersion: Ventura
+    browser: 'playwright-firefox'
+    browser_version: latest
+  - os: OS X
+    osVersion: Ventura
+    browser: 'edge'  # ✅ Corrected from 'playwright-edge' to 'edge'
+    browser_version: latest 
+playwrightConfig: "./playwright.config.js"
